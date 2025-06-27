@@ -15,5 +15,10 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
 
+   deployment/index
    task-queue/index
+   observability/index
+   performance/index
+   advanced/index
+   faq/index
 
