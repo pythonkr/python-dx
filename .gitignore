@@ -1,0 +1,12 @@
+# Ignore python cache files
+__pycache__/
+*.pyc
+
+# Ignore build artifacts
+build/
+
+# Ignore virtual environment
+.venv/
+
+# Ignore specific files
+main.py

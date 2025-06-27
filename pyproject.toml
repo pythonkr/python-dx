@@ -1,0 +1,18 @@
+[project]
+name = "python-dx"
+version = "0.1.0"
+description = "A project to improve the Python Developer Experience, documented with Sphinx."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "myst-parser>=4.0.1",
+    "sphinx>=8.2.3",
+    "sphinx-copybutton>=0.5.2",
+    "sphinx-rtd-theme>=3.0.2",
+    "sphinxcontrib-mermaid>=1.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pythonkr/python-dx"
+"Source" = "https://github.com/pythonkr/python-dx"
+"Tracker" = "https://github.com/pythonkr/python-dx/issues"
