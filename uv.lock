@@ -204,6 +204,7 @@ dependencies = [
     { name = "sphinx" },
     { name = "sphinx-copybutton" },
     { name = "sphinx-rtd-theme" },
+    { name = "sphinx-sitemap" },
     { name = "sphinxcontrib-mermaid" },
 ]
 
@@ -213,6 +214,7 @@ requires-dist = [
     { name = "sphinx", specifier = ">=8.2.3" },
     { name = "sphinx-copybutton", specifier = ">=0.5.2" },
     { name = "sphinx-rtd-theme", specifier = ">=3.0.2" },
+    { name = "sphinx-sitemap", specifier = ">=2.7.2" },
     { name = "sphinxcontrib-mermaid", specifier = ">=1.0.0" },
 ]
 
@@ -307,6 +309,18 @@ wheels = [
 ]
 
 [[package]]
+name = "sphinx-last-updated-by-git"
+version = "0.3.8"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "sphinx" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/03/fd/de1685b6dab173dff31da24e0d3b29f02873fc24a1cdbb7678721ddc8581/sphinx_last_updated_by_git-0.3.8.tar.gz", hash = "sha256:c145011f4609d841805b69a9300099fc02fed8f5bb9e5bcef77d97aea97b7761", size = 10785, upload-time = "2024-08-11T07:15:54.601Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e1/fb/e496f16fa11fbe2dbdd0b5e306ede153dfed050aae4766fc89d500720dc7/sphinx_last_updated_by_git-0.3.8-py3-none-any.whl", hash = "sha256:6382c8285ac1f222483a58569b78c0371af5e55f7fbf9c01e5e8a72d6fdfa499", size = 8580, upload-time = "2024-08-11T07:15:53.244Z" },
+]
+
+[[package]]
 name = "sphinx-rtd-theme"
 version = "3.0.2"
 source = { registry = "https://pypi.org/simple" }
@@ -318,6 +332,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/91/44/c97faec644d29a5ceddd3020ae2edffa69e7d00054a8c7a6021e82f20335/sphinx_rtd_theme-3.0.2.tar.gz", hash = "sha256:b7457bc25dda723b20b086a670b9953c859eab60a2a03ee8eb2bb23e176e5f85", size = 7620463, upload-time = "2024-11-13T11:06:04.545Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/85/77/46e3bac77b82b4df5bb5b61f2de98637724f246b4966cfc34bc5895d852a/sphinx_rtd_theme-3.0.2-py2.py3-none-any.whl", hash = "sha256:422ccc750c3a3a311de4ae327e82affdaf59eb695ba4936538552f3b00f4ee13", size = 7655561, upload-time = "2024-11-13T11:06:02.094Z" },
+]
+
+[[package]]
+name = "sphinx-sitemap"
+version = "2.7.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "sphinx-last-updated-by-git" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/10/a7/60e6cce670fcc21d95215bf2e3f3f6455b7bce0ecc8423ce8ffbd044587e/sphinx_sitemap-2.7.2.tar.gz", hash = "sha256:819e028e27579b47efa0e2f863b87136b711c45f13e84730610e80316f6883da", size = 6387, upload-time = "2025-06-27T00:32:31.332Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/66/2f/ae76e120797b42a7e96ed3cccc93bd7b1feb583008f6686fc85d90c774da/sphinx_sitemap-2.7.2-py3-none-any.whl", hash = "sha256:1a6a8dcecb0ffb85fd37678f785cfcc40adfe3eebafb05e678971e5260b117e4", size = 6018, upload-time = "2025-06-27T00:32:30.161Z" },
 ]
 
 [[package]]
