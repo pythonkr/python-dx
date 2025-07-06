@@ -34,4 +34,4 @@ html_static_path = ['_static']
 
 # site maps
 # https://sphinx-sitemap.readthedocs.io/en/latest/getting-started.html#usage
-html_baseurl = 'https://pythonkr.github.io/python-dx/'
+html_baseurl = 'https://dx.python.or.kr/'
