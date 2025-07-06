@@ -6,9 +6,9 @@
 python-dx documentation
 =======================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
+파이썬 사용시 어려운 점이 있다면, `Github Issue <https://github.com/pythonkr/python-dx/issues>`_ 로 만들어주세요.
+
+문서에 기여하고 싶다면 pull request 를 보내주시거나 어렵다면 issue 로 등록해주세요.
 
 
 .. toctree::
