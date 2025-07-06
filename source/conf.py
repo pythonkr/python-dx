@@ -32,6 +32,9 @@ language = 'ko'
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
+# robots txt
+html_extra_path = ['robots.txt']
+
 # site maps
 # https://sphinx-sitemap.readthedocs.io/en/latest/getting-started.html#usage
 html_baseurl = 'https://dx.python.or.kr/'
