@@ -20,5 +20,6 @@ python-dx documentation
    observability/index
    performance/index
    advanced/index
+   productivity/index
    faq/index
 
