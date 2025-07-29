@@ -1,14 +1,21 @@
 .. _ide_vscode:
 
 VSCode
-========
+==========
+
+VSCode 에서는 다음의 확장은 기본적으로 설치를 권장합니다.
+
+* Python
+* Pylance
+* ruff
+* pyright ( 타입을 필요로 하는 경우 )
 
 Pylance
 -------
 
 VSCode의 Python Extension은 Pylance라는 Language Server를 사용합니다.
 Pylance는 자동완성, 코드 분석 등 다양한 기능을 제공하지만,
-기본 설정으로는 자동완성 기능이 다소 느릴 수 있습니다.
+기본 설정으로는 자동완성 기능이 많이 부족합니다.
 
 Pylance의 분석 범위를 프로젝트 전체로 확장하려면 ``python.analysis.languageServerMode`` 값을 ``full`` 로 설정합니다. 이렇게 하면 모든 파일에 대한 전체 분석을 활성화하여, 정확도를 높일 수 있습니다.
 
